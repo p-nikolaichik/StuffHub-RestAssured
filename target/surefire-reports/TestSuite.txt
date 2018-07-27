@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.213 s <<< FAILURE! - in TestSuite
+check_Authorization_With_IncorrectData(api.TestAPI)  Time elapsed: 1.63 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errorCode doesn't match.
+Expected: <401>
+  Actual: 401
+
+	at api.TestAPI.check_Authorization_With_IncorrectData(TestAPI.java:29)
+

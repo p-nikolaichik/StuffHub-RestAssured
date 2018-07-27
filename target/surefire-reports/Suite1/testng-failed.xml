@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="Company(failed)">
+    <classes>
+      <class name="api.TestAPI">
+        <methods>
+          <include name="check_Authorization_With_IncorrectData"/>
+        </methods>
+      </class> <!-- api.TestAPI -->
+    </classes>
+  </test> <!-- Company(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
